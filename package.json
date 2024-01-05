@@ -1,0 +1,16 @@
+{
+  "name": "1_watertimer",
+  "version": "1.0.0",
+  "description": "continuar do 00:00 | aula 4",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/gotas.icns --out=packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.1"
+  }
+}
